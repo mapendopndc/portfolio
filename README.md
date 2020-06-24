@@ -1,5 +1,7 @@
-# portfolio
-Personal Website
+# Portfolio
+Personal website to showcase my architectural and software projects.
+Currently in development.
+This code is live at https://mapendopndc.io
 
 Technology Stack
 -
