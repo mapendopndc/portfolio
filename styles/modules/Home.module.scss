@@ -1,4 +1,5 @@
 .title {
+    position: fixed;
     margin: 20px 20px;
     font-size: 16px;
     font-weight: 550;
@@ -12,6 +13,7 @@
     position: fixed;
     top: 50%;
     letter-spacing: 5px;
+    z-index: 1;
 }
 
 .side-text.left {
@@ -24,16 +26,16 @@
     right: 10px;
 }
 
-.profile-pic {
+.profile {
     position: absolute;
     left: 20%;
     top: 15%;
 }
 
-.profile-pic img {
+.profile img {
     width: 30%;
     min-width: 200px;
-    box-shadow: 0px 0px 30px 10px #000000;
+    box-shadow: 10px 10px 30px 15px #000000;
 }
 
 .card {
@@ -66,7 +68,7 @@
     letter-spacing: 2px;
     width: 45px;
     padding-bottom: 3px;
-    margin:14px 0 !important;
+    margin:14px 0;
     border-bottom: 1px solid;
     transition: width 0.2s;
     color: white;
@@ -77,3 +79,24 @@
     width: 70px;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 650px) {
+    .card {
+        margin-top: 30px;
+        position: static;
+        color: white;
+        width: 100%;
+    }
+
+    .profile {
+        position: static;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .about {
+        margin: 10px 0;
+        text-align: justify;
+    }
+  }

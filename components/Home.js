@@ -5,7 +5,7 @@ const Home = () => (
         <h1 className="title">MAPENDO</h1>
         <h2 className="side-text left">PORT</h2>
         <h2 className="side-text right">FOLIO</h2>
-        <div className="profile-pic">
+        <div className="profile">
             <img src="/profile.jpg" alt="Profile Picture"/>
             <div className="card">
                 <h3 className="hero">HELLO</h3>
