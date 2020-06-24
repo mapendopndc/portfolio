@@ -9,7 +9,7 @@
     font-weight: 600;
     font-size: 11px;
     display: block;
-    position: absolute;
+    position: fixed;
     top: 50%;
     letter-spacing: 5px;
 }
@@ -36,31 +36,44 @@
     box-shadow: 0px 0px 30px 10px #000000;
 }
 
-.hero {
-    display: inline-block;
+.card {
+    display: block;
     position: absolute;
     left: 40%;
     top: 20%;
-    width: 100px;
+    width: 230px;
+}
+
+.hero {
     font-size: 35px;
     font-weight: 400;
     letter-spacing: 7px;
+    margin: 0;
 }
 
-.resume {
-    display: inline-block;
+.about {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.link {
+    position: relative;
+    display: block;
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
     width: 45px;
     padding-bottom: 3px;
+    margin:14px 0 !important;
     border-bottom: 1px solid;
     transition: width 0.2s;
     color: white;
     text-decoration: none;
 }
 
-.resume:hover {
+.link:hover {
     width: 70px;
     cursor: pointer;
 }
