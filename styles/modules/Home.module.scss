@@ -46,3 +46,21 @@
     font-weight: 400;
     letter-spacing: 7px;
 }
+
+.resume {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    width: 45px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid;
+    transition: width 0.2s;
+    color: white;
+    text-decoration: none;
+}
+
+.resume:hover {
+    width: 70px;
+    cursor: pointer;
+}
