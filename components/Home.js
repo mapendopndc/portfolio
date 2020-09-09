@@ -13,8 +13,8 @@ const Home = () => (
                 <a href="/CV_2B_TECH.pdf" target="_blank" className="link">Resume</a>
                 <a href="/Portfolio_2A.pdf" target="_blank" className="link">Design</a>
                 <a href="https://github.com/mapendopndc" target="_blank" className="link">Github</a>
-                <a href="https://www.instagram.com/mapendo.ndc" target="_blank" className="link">Blog</a>
                 <a href="https://www.linkedin.com/in/mapendopndc" target="_blank" className="link">LinkedIn</a>
+                <a href="https://www.instagram.com/mapendo.ndc" target="_blank" className="link">Photoblog</a>
             </div>
         </div>
     </div>
