@@ -10,7 +10,7 @@ const Home = () => (
             <div className="card">
                 <h3 className="hero">HELLO</h3>
                 <p className="about">My name is Mapendo Ngilinga de Carvalho, I'm a serial learner with a passion for software, design, and everything in between.</p>
-                <a href="/CV_2B_TECH.pdf" target="_blank" className="link">Resume</a>
+                <a href="/CV_3A_BIM.pdf" target="_blank" className="link">Resume</a>
                 <a href="https://www.linkedin.com/in/mapendopndc" target="_blank" className="link">LinkedIn</a>
                 <a href="https://github.com/mapendopndc" target="_blank" className="link">Github</a>
                 <a href="/Structural_Report.pdf" target="_blank" className="link">Engineering</a>
