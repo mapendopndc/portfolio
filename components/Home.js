@@ -16,7 +16,7 @@ const Home = () => (
                 <a href="/Structural_Report.pdf" target="_blank" className="link">Engineering</a>
                 <a href="/Portfolio_2A.pdf" target="_blank" className="link">Design</a>
                 <a href="/Research.pdf" target="_blank" className="link">Research</a>
-                <a href="https://www.instagram.com/mapendo.ndc" target="_blank" className="link">Photoblog</a>
+                {/* <a href="https://www.instagram.com/mapendo.ndc" target="_blank" className="link">Photoblog</a> */}
             </div>
         </div>
     </div>
