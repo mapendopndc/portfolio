@@ -1,4 +1,3 @@
-import '../styles/modules/Home.module.scss'
 
 const Home = () => (
     <div className="container">
